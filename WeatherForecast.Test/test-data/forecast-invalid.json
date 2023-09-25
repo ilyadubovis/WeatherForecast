@@ -1,0 +1,8 @@
+﻿{
+  "correlationId": "1cff7e80",
+  "title": "Zone Does Not Exist",
+  "type": "https://api.weather.gov/problems/InvalidZone",
+  "status": 404,
+  "detail": "Forecast zone ILZ999 does not exist",
+  "instance": "https://api.weather.gov/requests/1cff7e80"
+}

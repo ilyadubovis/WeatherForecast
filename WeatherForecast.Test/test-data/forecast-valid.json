@@ -1,0 +1,84 @@
+﻿{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "Feature",
+  "geometry": {
+  },
+  "properties": {
+    "zone": "https://api.weather.gov/zones/forecast/ORZ006",
+    "updated": "2023-09-24T14:11:00-07:00",
+    "periods": [
+      {
+        "number": 1,
+        "name": "Tonight",
+        "detailedForecast": "Rain. Lows in the mid 50s. Southeast wind 10 to 15 mph. Chance of rain near 100 percent. Rainfall amounts a quarter to a half of an inch."
+      },
+      {
+        "number": 2,
+        "name": "Monday",
+        "detailedForecast": "Rain. A slight chance of thunderstorms in the afternoon. Highs in the upper 60s. South wind 15 to 20 mph with gusts up to 30 mph. Chance of rain near 100 percent. Rainfall amounts a tenth to a quarter of an inch, except higher amounts possible in thunderstorms."
+      },
+      {
+        "number": 3,
+        "name": "Monday Night",
+        "detailedForecast": "Rain with a slight chance of thunderstorms. Lows in the lower 50s. South wind 10 to 15 mph with gusts up to 25 mph. Chance of rain near 100 percent. Rainfall amounts a tenth to a quarter of an inch, except higher amounts possible in thunderstorms."
+      },
+      {
+        "number": 4,
+        "name": "Tuesday",
+        "detailedForecast": "A slight chance of thunderstorms. Rain in the morning, then showers in the afternoon. Highs in the mid 60s. South wind 15 to 20 mph with gusts up to 30 mph. Chance of rain near 100 percent."
+      },
+      {
+        "number": 5,
+        "name": "Tuesday Night",
+        "detailedForecast": "A slight chance of thunderstorms in the evening. Rain. Lows in the lower 50s. South wind 15 to 20 mph. Gusts up to 35 mph after midnight. Chance of rain near 100 percent."
+      },
+      {
+        "number": 6,
+        "name": "Wednesday",
+        "detailedForecast": "Rain in the morning, then showers with a slight chance of thunderstorms in the afternoon. Highs in the mid 60s. Chance of rain near 100 percent."
+      },
+      {
+        "number": 7,
+        "name": "Wednesday Night",
+        "detailedForecast": "Rain. Lows around 50. Chance of rain 90 percent."
+      },
+      {
+        "number": 8,
+        "name": "Thursday",
+        "detailedForecast": "Rain with a slight chance of thunderstorms. Highs in the lower 60s. Chance of rain 90 percent."
+      },
+      {
+        "number": 9,
+        "name": "Thursday Night",
+        "detailedForecast": "Mostly cloudy with a 50 percent chance of rain. Patchy fog after midnight. Lows in the upper 40s."
+      },
+      {
+        "number": 10,
+        "name": "Friday",
+        "detailedForecast": "Patchy fog in the morning. Mostly cloudy with a 50 percent chance of rain. Highs in the lower 60s."
+      },
+      {
+        "number": 11,
+        "name": "Friday Night",
+        "detailedForecast": "Mostly cloudy with a 50 percent chance of rain. Patchy fog after midnight. Lows in the mid 40s."
+      },
+      {
+        "number": 12,
+        "name": "Saturday",
+        "detailedForecast": "Patchy fog in the morning. Partly sunny with a 40 percent chance of rain. Highs in the mid 60s."
+      },
+      {
+        "number": 13,
+        "name": "Saturday Night",
+        "detailedForecast": "Partly cloudy with a 20 percent chance of rain. Patchy fog after midnight. Lows in the mid 40s."
+      },
+      {
+        "number": 14,
+        "name": "Sunday",
+        "detailedForecast": "Patchy fog in the morning. Partly cloudy with a 20 percent chance of rain. Highs in the upper 60s."
+      }
+    ]
+  }
+}

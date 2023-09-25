@@ -1,0 +1,48 @@
+﻿{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/zones/forecast/ORZ006",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/ORZ006",
+        "@type": "wx:Zone",
+        "id": "ORZ006",
+        "type": "public",
+        "name": "Greater Portland Metro Area",
+        "effectiveDate": "2023-09-19T18:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "OR",
+        "cwa": [
+          "PQR"
+        ],
+        "forecastOffices": [
+          "https://api.weather.gov/offices/PQR"
+        ],
+        "timeZone": [
+          "America/Los_Angeles"
+        ],
+        "observationStations": [
+          "https://api.weather.gov/stations/KAST",
+          "https://api.weather.gov/stations/KDLS",
+          "https://api.weather.gov/stations/KEUG",
+          "https://api.weather.gov/stations/KHIO",
+          "https://api.weather.gov/stations/KKLS",
+          "https://api.weather.gov/stations/KMMV",
+          "https://api.weather.gov/stations/KONP",
+          "https://api.weather.gov/stations/KSEA",
+          "https://api.weather.gov/stations/KSLE",
+          "https://api.weather.gov/stations/KSPB",
+          "https://api.weather.gov/stations/KTTD",
+          "https://api.weather.gov/stations/KUAO",
+          "https://api.weather.gov/stations/KVUO"
+        ],
+        "radarStation": null
+      }
+    }
+  ]
+}

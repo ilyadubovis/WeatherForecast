@@ -1,0 +1,23 @@
+﻿@using WeatherForecast.Model
+<div class="forecast-panel">
+    <table>
+        <thead>
+            <tr class="bg-primary">
+                <th style="width:200px;">
+                    Day
+                </th>
+                <th>
+                    Weather Forecast
+                </th>
+            </tr>
+        </thead>
+        @foreach (var forecast in Forecasts)
+        {
+            <WeatherForecast.Component.ForecastItemComponent Forecast="forecast"></WeatherForecast.Component.ForecastItemComponent>
+        }
+    </table>
+</div>
+@code {
+    [Parameter]
+    public List<ForecastItem> Forecasts { get; set; } = new List<ForecastItem>();
+}

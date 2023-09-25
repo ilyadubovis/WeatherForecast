@@ -1,0 +1,41 @@
+﻿@page "/forecast"
+@inject HttpClient Http
+
+<PageTitle>Weather Forecast</PageTitle>
+
+<h1>Weather Forecast</h1>
+
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <EditForm Model="this" OnValidSubmit=@OnVaildSubmission OnInvalidSubmit=@OnInvaildSubmission>
+                <DataAnnotationsValidator />
+                <div class="form-group">
+                    <label class="form-label">Weather Zone Id</label>
+                    <div class="input-group">
+                        <InputText @bind-Value="CurrentWeatherZoneId" class="form-control" maxlength="6" />
+                        <button class="btn btn-primary oi oi-media-play"></button>
+                    </div>
+                    <ValidationMessage For="() => CurrentWeatherZoneId"/>
+                </div>
+            </EditForm>
+            @if (_isInvalidWeatherZone)
+            {
+                <div class="mt-3">No results found for the weather zone <b>@CurrentWeatherZoneId</b>.</div>
+            }
+            else if (_zoneInfo != default)
+            {
+                <WeatherForecast.Component.ZoneInfoComponent ZoneInfo="_zoneInfo"></WeatherForecast.Component.ZoneInfoComponent>
+            }
+        </div>
+
+        <div class="col-lg-8 col-md-6">
+        @if (_forecasts.Any())
+        {
+            <WeatherForecast.Component.ForecastComponent Forecasts="_forecasts"></WeatherForecast.Component.ForecastComponent>
+        }
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,10 @@
+﻿td {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+

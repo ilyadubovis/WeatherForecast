@@ -1,0 +1,13 @@
+﻿@using WeatherForecast.Model
+<tr>
+    <td>
+        <b>@Forecast?.Name</b>
+    </td>
+    <td>
+        @Forecast?.DetailedForecast
+    </td>
+</tr>
+@code {
+    [Parameter]
+    public ForecastItem? Forecast { get; set; }
+}

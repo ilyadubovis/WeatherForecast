@@ -1,0 +1,20 @@
+﻿@using WeatherForecast.Model
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-3">
+            <div>Zone ID</div>
+            <div>Area</div>
+            <div>State</div>
+        </div>
+        <div class="col-9">
+            <div class=fw-bold>@ZoneInfo?.Id</div>
+            <div class =fw-bold>@ZoneInfo?.Name</div>
+            <div class=fw-bold>@ZoneInfo?.State</div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public WeatherZoneInfo? ZoneInfo { get; set; }
+}
