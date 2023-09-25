@@ -6,5 +6,6 @@ Blazor WASM client-only application that displays weather forecast using the Nat
 The application displays weather forecast in a form of HTML table for a given weather zone.
 
 ## Screenshot
-![image](https://github.com/ilyadubovis/WeatherForecast/assets/65792402/bd4a02c3-b5a5-42bc-a317-18201bdc0a82)
+
+![image](https://github.com/ilyadubovis/WeatherForecast/assets/65792402/2295bb8c-a601-4a11-a020-fd65503554ed)
 
