@@ -17,7 +17,7 @@ namespace WeatherForecast.Test
         }
 
         [TestMethod]
-        public void TestValidForecast()
+        public void TestValidZoneId()
         {
             var jsonNode = JsonNode.Parse(File.ReadAllText(@"test-data/zoneinfo-valid.json"));
             var zoneInfo = _weatherForecastService.GetZoneInfo(jsonNode, "ORZ006");
@@ -26,7 +26,7 @@ namespace WeatherForecast.Test
         }
 
         [TestMethod]
-        public void TestInvalidForecast()
+        public void TestInvalidZoneId()
         {
             var jsonNode = JsonNode.Parse(File.ReadAllText(@"test-data/zoneinfo-invalid.json"));
             var zoneInfo = _weatherForecastService.GetZoneInfo(jsonNode, "ORZ999");
